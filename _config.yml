@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:git
+  repository:git clone root@45.76.4.121:/root/hexo/blog.git
+  branch:master
